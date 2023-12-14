@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react-swc";
 import yaml from "@rollup/plugin-yaml";
 import dynamicImportVars from "@rollup/plugin-dynamic-import-vars";
 import UnoCSS from "unocss/vite";
-import presetIcons from "@unocss/preset-icons";
+import { presetIcons } from "unocss";
 import { fileURLToPath, URL } from "url";
 import bundleAnalyzer from "rollup-plugin-bundle-analyzer";
 // import react from "@vitejs/plugin-react";
